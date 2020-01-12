@@ -8,8 +8,8 @@
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="home/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="home/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
@@ -43,20 +43,25 @@
 
             <!--   Icon Section   -->
             <div class="row">
-                <div class="col">
+                <div class="col s1 m2">
+                </div>
+                <div class="col s10 m8">
                     <div class="input-field">
                         <h2 class="center light-blue-text">About You</h2>
                         <h5 class="center">Name (Required)</h5>
                         <input type="text" name="" id="name" class="light validate">
-                        <label for="name">First Name Last Name</label>
 
                         <h5 class="center">Link to Photo Image (Required)</h5>
                         <input type="text" name="" id="photo" class="light validate">
-                        <label for="name">mypic.png</label>
 
                     </div>
                 </div>
+                <div class="col s1 m2">
+                </div>
             </div>
+
+            <br>
+
             <div class="row">
                 <div class="col s12 m4">
                     <div class="input-field">
@@ -102,7 +107,9 @@
                         </select>
                     </div>
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="col s12 m4">
                     <div class="input-field">
                         <h2 class="center light-blue-text">Question 4</h2>
@@ -147,7 +154,9 @@
                         </select>
                     </div>
                 </div>
+            </div>
 
+            <div class="row">
                 <div class="col s12 m4">
                     <div class="input-field">
                         <h2 class="center light-blue-text">Question 7</h2>
@@ -190,11 +199,14 @@
                             <option value="4">4</option>
                             <option value="5">5 (Strongly Agree)</option>
                         </select>
-                        <label>Scale of 1 -5</label>
                     </div>
                 </div>
+            </div>
 
-                <div class="col s12 m4">
+            <div class="row">
+                <div class="col sm1 m2">
+                </div>
+                <div class="col">
                     <div class="input-field">
                         <h2 class="center light-blue-text">Question 10</h2>
                         <h5 class="center">Your mind is always buzzing with unexplored ideas and plans</h5>
@@ -206,10 +218,10 @@
                             <option value="4">4</option>
                             <option value="5">5 (Strongly Agree)</option>
                         </select>
-                        <label>Scale of 1 -5</label>
                     </div>
                 </div>
-
+                <div class="col sm1 m2">
+                </div>
             </div>
         </div>
         <br><br>
@@ -218,6 +230,8 @@
         <button class="btn waves-effect waves-light" type="submit" id="submit" name="action">Submit
             <i class="material-icons right">send</i>
         </button>
+
+        <hr>
 
     </div>
 
@@ -262,8 +276,8 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+    <script src="home/js/materialize.js"></script>
+    <script src="home/js/init.js"></script>
 
 </body>
 
